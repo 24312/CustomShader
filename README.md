@@ -56,3 +56,5 @@ week 2
 
 Bronnen
 Welke bronnen heb je gebruikt? Zowel youtube filmpjes als artikelen
+
+https://docs.unity3d.com/Manual/GPUInstancing.html 
