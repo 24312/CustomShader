@@ -5,14 +5,19 @@ Hier komt een korte beschrijving van de proefopdracht. Wat heb je precies gedaan
 Features
 
 Iets unieks waar je trots op bent binnen de project
+
 *ik ben er trots op dat dit mijn eerste keer is met shaders werken
-* 
+
 
 Software Anaylse
 Welke software heb je voor deze proefopdracht onderzocht? En waarom heb je uiteindelijk gekozen voor de gekozen Software. Benoem hier specifieke argumenten.
+
 Unity
+
 *ben meer bekent met Unity
+
 *beter te doen in de tijd die ik heb gekregen
+
 Unreal Engine
 *is lastig te begrijpen om met de omgeving te werken
 *is lastig te doen in de tijd die ik heb
