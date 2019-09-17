@@ -21,7 +21,7 @@ public class Pickup : MonoBehaviour
         {
            
             Destroy(other.gameObject);
-            renderer.material.SetFloat("Rotation", 0);
+            renderer.material.SetVector("Rotation", new Vector4(0.0f, 0.0f, 0.0f, 0.0f));
            
         }
     }
