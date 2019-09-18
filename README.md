@@ -1,8 +1,10 @@
 # CustomShader
 
-Hier komt een korte beschrijving van de proefopdracht. Wat heb je precies gedaan?
+ik heb een shader laten veranderen met een script als hij iets op pakt
 
 Features
+
+verandert shader values naar iets anders
 
 Iets unieks waar je trots op bent binnen de project
 
@@ -54,7 +56,14 @@ vrijdag * level design
 
 week 2					
 
+Maandag * level
+
+dinsdag * af
+
+woensdag * polish
+
 Bronnen
 Welke bronnen heb je gebruikt? Zowel youtube filmpjes als artikelen
 
 https://docs.unity3d.com/Manual/GPUInstancing.html 
+https://www.youtube.com/watch?v=VzhxginBhdc
