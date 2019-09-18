@@ -7,13 +7,13 @@ public class glitch : MonoBehaviour
 
     public float glitchChance = .1f;
 
-    private Renderer holoRenderer;
+    private Renderer renderer;
     private WaitForSeconds GlitchLoopWait = new WaitForSeconds(.1f);
     private WaitForSeconds GlitchDuration = new WaitForSeconds(.1f);
 
     private void Awake()
     {   
-        holoRenderer = GetComponent<Renderer>();
+        renderer = GetComponent<Renderer>();
     }
 
 
@@ -34,13 +34,13 @@ public class glitch : MonoBehaviour
         IEnumerator Glitch()
         {
             GlitchDuration = new WaitForSeconds(Random.Range(.05f, .25f));
-            holoRenderer.material.SetFloat("_amount", 1f);
-            holoRenderer.material.SetFloat("_CutoutThresh", .29f);
-            holoRenderer.material.SetFloat("_Amplitude", Random.Range(100, 250));
-            holoRenderer.material.SetFloat("_speed", Random.Range(1, 10));
+            renderer.material.SetFloat("_amount", 1f);
+            renderer.material.SetFloat("_CutoutThresh", .29f);
+            renderer.material.SetFloat("_Amplitude", Random.Range(100, 250));
+            renderer.material.SetFloat("_speed", Random.Range(1, 10));
             yield return GlitchDuration;
-            holoRenderer.material.SetFloat("_amount", 0f);
-            holoRenderer.material.SetFloat("_CutoutTresh", 1f);
+            renderer.material.SetFloat("_amount", 0f);
+            renderer.material.SetFloat("_CutoutTresh", 1f);
         }
 
     }

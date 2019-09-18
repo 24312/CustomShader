@@ -1,4 +1,4 @@
-﻿Shader "Custom/expand"
+﻿Shader "Custom/Expand"
 {
     Properties
     {

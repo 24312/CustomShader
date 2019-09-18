@@ -21,7 +21,7 @@ public class Pickup : MonoBehaviour
         {
            
             Destroy(other.gameObject);
-            renderer.material.SetVector("Rotation", new Vector4(0.0f, 0.0f, 0.0f, 0.0f));
+            renderer.material.SetVector("_Rotation", new Vector4(0.0f, 0.0f, 0.0f, 0.0f));
            
         }
     }

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ReduceBody : MonoBehaviour
 {
+    private Renderer renderer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +16,10 @@ public class ReduceBody : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void FixedUpdate()
+    {
+         renderer.material.SetVector("_Rotation", new Vector4(0.0f, 0.0f, 0.0f, 0.0f));
     }
 }
